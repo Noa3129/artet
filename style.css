@@ -3,6 +3,7 @@ text-decoration: none;
 }
 
 .button-36 {
+  border: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,4 +22,10 @@ text-decoration: none;
   background-color: #2589d0;
   color: #fff;
   font-weight: 600;
+}
+
+.line{
+  border: none;
+  border-bottom: 1px solid #0000008F;
+  width: 100%;
 }
