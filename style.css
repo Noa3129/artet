@@ -1,11 +1,12 @@
-a {
-text-decoration: none;
-}
+.kakugosikku{
+      font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
+    }
+
 
 .button-36 {
   border: none;
   display: flex;
-  justify-content: center;
+   justify-content: center;
   align-items: center;
   width: 70%;
   margin: 0 auto;
@@ -24,8 +25,18 @@ text-decoration: none;
   font-weight: 600;
 }
 
+
 .line{
   border: none;
   border-bottom: 1px solid #0000008F;
   width: 100%;
+}
+.links
+{
+  
+}
+
+.links:hover
+{
+  border: none;
 }
