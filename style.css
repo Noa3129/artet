@@ -30,13 +30,29 @@
   border: none;
   border-bottom: 1px solid #0000008F;
   width: 100%;
-}
-.links
-{
-  
+  color: #2589d0;
 }
 
-.links:hover
-{
-  border: none;
+a:hover{
+  color:red;
+}
+
+.imgcenter{
+  text-align:center;
+  pointer-events: none;
+  }
+
+#ac-globalfooter .ac-gf-directory-column-section-item {
+    display: block;
+    pointer-events: auto;
+    margin-bottom: .8em;
+}                          
+
+
+.float_test {
+    background-color:  #ffffff;    /* 背景色指定 */
+    float:  left;               /* 横並びにする */
+    margin:  0px;               /* 要素と要素の間を開ける */
+    padding:  50px;     
+        /* 余白指定 */
 }
