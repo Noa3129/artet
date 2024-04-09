@@ -56,3 +56,31 @@ a:hover{
     padding:  50px;     
         /* 余白指定 */
 }
+
+
+
+li {
+  list-style: none;
+}
+@media screen and (min-width:500px)  { 
+  .items {
+  display: flex;
+}
+ 
+}
+    }
+.items li {
+  margin-right: 10px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+</style>
+
+div {
+   margin: 0;
+   padding: 0;
+}
+</style>
