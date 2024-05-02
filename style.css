@@ -113,31 +113,30 @@ a:hover{
 
 
 /* フッター */
-a:link {
-  color: #ffffff;
-  text-decoration: underline;
- }
 footer {
-   background-color: darkred;
-   color: whitesmoke;
-   
+  background-color: darkred;
+  color: whitesmoke;
   }
   
   .footer-menu {
-   height: 60px;
+  height: 60px;
   }
   
   .footer-menu-list {
-   list-style: none;
-   text-align: center;
-   line-height: 60px;
+  list-style: none;
+  text-align: center;
+  line-height: 60px;
   }
   
   .footer-menu-list li {
-   margin: 10px;
+  margin: 10px;
   display: inline;
   }
-  
+  @media screen and (min-width:500px)  { 
+  .footer-menu-list li {
+    display: inline;
+    }
+  }
   .copyright {
-   text-align: center;
+  text-align: center;
   }
