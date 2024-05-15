@@ -52,7 +52,7 @@ a:hover{
 
 .float_test {
     background-color:  #ffffff;    /* 背景色指定 */
-    float:  left;               /* 横並びにする */
+    float:  center;               /* 横並びにする */
     margin:  0px;               /* 要素と要素の間を開ける */
     padding:  50px;     
         /* 余白指定 */
@@ -69,7 +69,7 @@ li {
 }
  
 }
-    }
+    
 .items li {
   margin-right: 10px;
 }
@@ -78,14 +78,14 @@ body {
    margin: 0;
    padding: 0;
 }
-</style>
+
 
 div {
    margin: 0;
    padding: 0;
 }
-</style>
-}
+
+
 
 a:hover{
   color:red;
@@ -105,9 +105,52 @@ a:hover{
 
 .float_test {
     background-color:  #ffffff;    /* 背景色指定 */
-    float:  left;               /* 横並びにする */
+    float:  center;               /* 横並びにする */
     margin:  0px;               /* 要素と要素の間を開ける */
     padding:  50px;     
         /* 余白指定 */
 }
 
+
+/* フッター */
+footer {
+  background-color: darkred;
+  color: whitesmoke;
+  }
+  
+  .footer-menu {
+  height: 60px;
+  }
+  
+  .footer-menu-list {
+  list-style: none;
+  text-align: center;
+  line-height: 60px;
+  }
+  
+  .footer-menu-list li {
+  margin: 10px;
+  display: inline;
+  }
+  @media screen and (min-width:500px)  { 
+  .footer-menu-list li {
+    display: inline;
+    }
+  }
+  .copyright {
+  text-align: center;
+  }
+
+.astting
+{
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+  }
+
+@media screen and (min-width:793px)  { 
+  .footer-menu-list li {
+
+    text-align: center;
+    }
