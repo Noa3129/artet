@@ -32,6 +32,7 @@
   width: 100%;
   color: #2589d0;
 
+
 }
 
 a:hover{
@@ -57,6 +58,61 @@ a:hover{
     padding:  50px;     
         /* 余白指定 */
 }
+
+
+
+li {
+  list-style: none;
+}
+@media screen and (min-width:500px)  { 
+  .items {
+  display: flex;
+}
+ 
+}
+    
+.items li {
+  margin-right: 10px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+
+}
+
+
+div {
+   margin: 0;
+   padding: 0;
+}
+
+
+
+a:hover{
+  color:red;
+}
+
+.imgcenter{
+  text-align:center;
+  pointer-events: none;
+  }
+
+#ac-globalfooter .ac-gf-directory-column-section-item {
+    display: block;
+    pointer-events: auto;
+    margin-bottom: .8em;
+}                          
+
+
+.float_test {
+    background-color:  #ffffff;    /* 背景色指定 */
+    float:  center;               /* 横並びにする */
+    margin:  0px;               /* 要素と要素の間を開ける */
+    padding:  50px;     
+        /* 余白指定 */
+}
+
 
 
 
@@ -112,6 +168,7 @@ a:hover{
 }
 
 
+
 /* フッター */
 footer {
   background-color: darkred;
@@ -140,3 +197,20 @@ footer {
   .copyright {
   text-align: center;
   }
+
+
+.astting
+{
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+  }
+
+@media screen and (min-width:793px)  { 
+  .footer-menu-list li {
+
+    text-align: center;
+    }
+
+
