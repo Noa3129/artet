@@ -210,12 +210,14 @@ text-align: center;
 a {
 color: rgb(255, 255, 255);
 text-decoration: none;
+padding: 60px;
 }
 }
 .astting:hover{
 a {
 color: red;
 text-decoration: none;
+padding: 60px;
 }
 }
 
