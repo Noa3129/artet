@@ -1,216 +1,273 @@
 .kakugosikku{
-      font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
-    }
+  font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
+}
 
 
 .button-36 {
-  border: none;
-  display: flex;
-   justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin: 0 auto;
-  padding: .9em 2em;
-  border: 1px solid #2589d0;
-  border-radius: 5px;
-  background-color: #fff;
-  color: #2589d0;
-  font-size: 1em;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70%;
+margin: 0 auto;
+padding: .9em 2em;
+border: 1px solid #2589d0;
+border-radius: 5px;
+background-color: #fff;
+color: #2589d0;
+font-size: 1em;
 }
 
 .button-36:hover {
-  border: none;
-  background-color: #2589d0;
-  color: #fff;
-  font-weight: 600;
+border: none;
+background-color: #2589d0;
+color: #fff;
+font-weight: 600;
 }
 
 
 .line{
-  border: none;
-  border-bottom: 1px solid #0000008F;
-  width: 100%;
-  color: #2589d0;
+border: none;
+border-bottom: 1px solid #0000008F;
+width: 100%;
+color: #2589d0;
 
 
 }
 
 a:hover{
-  color:red;
+color:red;
 }
 
 .imgcenter{
-  text-align:center;
-  pointer-events: none;
-  }
+text-align:center;
+pointer-events: none;
+}
 
 #ac-globalfooter .ac-gf-directory-column-section-item {
-    display: block;
-    pointer-events: auto;
-    margin-bottom: .8em;
+display: block;
+pointer-events: auto;
+margin-bottom: .8em;
 }                          
 
 
 .float_test {
-    background-color:  #ffffff;    /* 背景色指定 */
-    float:  center;               /* 横並びにする */
-    margin:  0px;               /* 要素と要素の間を開ける */
-    padding:  50px;     
-        /* 余白指定 */
+background-color:  #ffffff;    /* 背景色指定 */
+float:  center;               /* 横並びにする */
+margin:  0px;               /* 要素と要素の間を開ける */
+padding:  50px;     
+    /* 余白指定 */
 }
 
 
 
 li {
-  list-style: none;
+list-style: none;
 }
 @media screen and (min-width:500px)  { 
-  .items {
-  display: flex;
+.items {
+display: flex;
 }
- 
+
 }
-    
+
 .items li {
-  margin-right: 10px;
+margin-right: 10px;
 }
 
 body {
-   margin: 0;
-   padding: 0;
+margin: 0;
+padding: 0;
 
 }
 
 
 div {
-   margin: 0;
-   padding: 0;
+margin: 0;
+padding: 0;
 }
 
 
 
 a:hover{
-  color:red;
+color:red;
 }
 
 .imgcenter{
-  text-align:center;
-  pointer-events: none;
-  }
+text-align:center;
+pointer-events: none;
+}
 
 #ac-globalfooter .ac-gf-directory-column-section-item {
-    display: block;
-    pointer-events: auto;
-    margin-bottom: .8em;
+display: block;
+pointer-events: auto;
+margin-bottom: .8em;
 }                          
 
 
 .float_test {
-    background-color:  #ffffff;    /* 背景色指定 */
-    float:  center;               /* 横並びにする */
-    margin:  0px;               /* 要素と要素の間を開ける */
-    padding:  50px;     
-        /* 余白指定 */
+background-color:  #ffffff;    /* 背景色指定 */
+float:  center;               /* 横並びにする */
+margin:  0px;               /* 要素と要素の間を開ける */
+padding:  50px;     
+    /* 余白指定 */
 }
 
 
 
 
 li {
-  list-style: none;
+list-style: none;
 }
 @media screen and (min-width:500px)  { 
-  .items {
-  display: flex;
+.items {
+display: flex;
 }
- 
+
 }
-    
+
 .items li {
-  margin-right: 10px;
+margin-right: 10px;
 }
 
 body {
-   margin: 0;
-   padding: 0;
+margin: 0;
+padding: 0;
 }
 
 
 div {
-   margin: 0;
-   padding: 0;
+margin: 0;
+padding: 0;
 }
 
 
 
 a:hover{
-  color:red;
+color:red;
 }
 
 .imgcenter{
-  text-align:center;
-  pointer-events: none;
-  }
+text-align:center;
+pointer-events: none;
+}
 
 #ac-globalfooter .ac-gf-directory-column-section-item {
-    display: block;
-    pointer-events: auto;
-    margin-bottom: .8em;
+display: block;
+pointer-events: auto;
+margin-bottom: .8em;
 }                          
 
 
 .float_test {
-    background-color:  #ffffff;    /* 背景色指定 */
-    float:  center;               /* 横並びにする */
-    margin:  0px;               /* 要素と要素の間を開ける */
-    padding:  50px;     
-        /* 余白指定 */
+background-color:  #ffffff;    /* 背景色指定 */
+float:  center;               /* 横並びにする */
+margin:  0px;               /* 要素と要素の間を開ける */
+padding:  50px;     
+    /* 余白指定 */
 }
 
 
 
 /* フッター */
+.background-color {
+color:darkred
+}
 footer {
-  background-color: darkred;
-  color: whitesmoke;
-  }
-  
-  .footer-menu {
-  height: 60px;
-  }
-  
-  .footer-menu-list {
+
+background-color: darkred;
+color: darkred;
+margin-top: auto;
+}
+
+.footer-menu {
+height: 60px ;
+}
+
+.footer-menu-list {
+padding: 30px;
   list-style: none;
+text-align: center;
+background-color: darkred;
+
+}
+
+.footer-menu-list li {
+
+background-color: darkred;
   text-align: center;
-  line-height: 60px;
-  }
-  
-  .footer-menu-list li {
-  margin: 10px;
-  display: inline;
-  }
-  @media screen and (min-width:500px)  { 
-  .footer-menu-list li {
-    display: inline;
-    }
-  }
-  .copyright {
-  text-align: center;
-  }
+}
+@media screen and (min-width:793px)  { 
+.footer-menu-list li {
+display: inline;
+}
+}
+@media screen and (max-width:793px)  { 
+.footer-menu-list li {
+padding: 50px;
+}
+}
+.copyright {
+text-align: center;
+}
 
 
 .astting
 {
 a {
-  color: whitesmoke;
-  text-decoration: none;
+color: rgb(255, 255, 255);
+text-decoration: none;
+padding: 30px 60px;
 }
-  }
+}
+.astting:hover{
+a {
+color: red;
+text-decoration: none;
+padding:   30px 60px;
+}
+}
 
-@media screen and (min-width:793px)  { 
-  .footer-menu-list li {
 
-    text-align: center;
-    }
+
+/* ヘッダー */
+
+.header{
+width: 100%;
+height: 100vh;
+background-image: url("./img/yamaguchi_17_1.jpg");
+background-position: center;
+background-size: cover;
+}
+
+nav{
+width: 100%;
+padding: 20px 0;
+text-align: center;
+
+}
+
+.header-logo{
+width: 100%;
+margin: 0 auto 20px auto;
+cursor: pointer;
+font-size: 3rem;
+font-weight: 450;
+}
+
+nav ul{
+background: #000;
+}
+
+nav ul li{
+display: inline-block;
+list-style: none;
+margin: 20px 30px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: white;
+}
 
 
