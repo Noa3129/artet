@@ -293,7 +293,7 @@ color: rgb(255, 255, 255);
 text-decoration: none;
 
 padding: 30px 60px;
-=======
+
 padding: 60px;
 
 }
@@ -309,9 +309,9 @@ padding:   30px 60px;
 
 
 
-padding:   0px 40px;
+
 }
-}
+
 
 @media screen and (min-width:793px)  { 
 .footer-menu-list li {
