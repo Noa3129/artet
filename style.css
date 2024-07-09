@@ -274,7 +274,7 @@ background-color: darkred;
   }
   @media screen and (max-width:1420px)  {  /*pc用*/
     .footer-menu-list li {
-    margin:auto;
+    margin:30px;
     }
     }
 @media screen and (min-width:793px)  { /* ipad */
