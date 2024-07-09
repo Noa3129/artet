@@ -272,22 +272,19 @@ background-color: darkred;
   margin: 50px;
   }
   }
-  @media screen and (max-width:1024px)  {  /*ipad用*/
+  @media screen and (max-width:1420px)  {  /*pc用*/
     .footer-menu-list li {
-    margin: 30px;
+    margin:auto;
     }
     }
-@media screen and (min-width:793px)  { /* スマホ用 */
-.footer-menu-list li {
-display: inline;
+@media screen and (min-width:793px)  { /* ipad */
+    .footer-menu-list li {
+    display: inline;
+    margin: 50px;
 }
 }
 
-@media screen and (max-width:793px)  { /* スマホ用 */
-.footer-menu-list li {
-margin: 50px;
-}
-}
+
 
 
 
