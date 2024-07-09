@@ -280,6 +280,11 @@ padding: 50px;
 }
 }
 
+@media screen and (max-width:1420px)  {  
+  .footer-menu-list li {
+  padding: 20px;
+  }
+  }
 
 .copyright {
 text-align: center;
