@@ -2,6 +2,10 @@
   font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
 }
 
+body {
+  font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
+}
+
 
 .button-36 {
 border: none;
@@ -228,27 +232,28 @@ padding:  50px;
 
 /* フッター */
 footer {
-    background-color: darkred;
-  　color: whitesmoke;
+    background-color: darkgreen;
+    color: whitesmoke;
+    border: 2px solid #000000;
   }
   
   .footer-menu {
-  　height: 60px;
+    height: 60px;
   }
   
   .footer-menu-list {
-  　list-style: none;
-  　text-align: center;
-  　line-height: 60px;
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
   }
   
   .footer-menu-list li {
-  　margin: 10px;
-  　display: inline;
+    margin: 10px;
+    display: inline;
   }
   
   .copyright {
-  　text-align: center;
+    text-align: center;
   }
 
 
