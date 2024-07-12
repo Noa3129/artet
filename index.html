@@ -13,7 +13,17 @@
   </style>
 
 </head>
+
   <body>
+    <div id="loading">
+      Loading...
+
+    </div>
+
+
+
+
+
     <div class="imgcenter">
     <img src="img/1400125_角島大橋.jpg" 
 alt="橋" width="100%" height="100%">
@@ -182,5 +192,12 @@ alt="橋" width="100%" height="100%">
     <p>© 2021 わっくわくプログラミング講座</p>
    </div>
   </footer>
-  
+
+  <script>
+    const loading = document.getElementById('loading');
+    window.onload=function(){
+      loading.classList.add('loaded');
+    }
+  </script>
+   
 </html>
