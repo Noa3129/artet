@@ -35,6 +35,7 @@ color: #2589d0;
 
 }
 
+
 a:hover{
 color:red;
 }
@@ -68,7 +69,7 @@ list-style: none;
 .items {
 display: flex;
 }
-
+}
 
 
 .items li {
@@ -224,110 +225,33 @@ margin:  0px;               /* 要素と要素の間を開ける */
 padding:  50px;     
     /* 余白指定 */
 }
-
-
 
 /* フッター */
-.background-color {
-color:darkred
-}
 footer {
-
-background-color: darkred;
-color: darkred;
-margin-top: auto;
-}
-
-.footer-menu {
-
-height: 60px ;
-}
-
-.footer-menu-list {
-padding: 30px;
-  list-style: none;
-
-height: 60px auto;
-}
-
-.footer-menu-list {
-list-style: none;
-
-text-align: center;
-background-color: darkred;
-
-}
-
-.footer-menu-list li {
-
-
-background-color: darkred;
-  text-align: center;
-
-  background-color: darkred;
-
-}
-@media screen and (max-width:1920px)  {  /*pc用*/
+  　background-color: darkred;
+  　color: whitesmoke;
+  }
+  
+  .footer-menu {
+  　height: 60px;
+  }
+  
+  .footer-menu-list {
+  　list-style: none;
+  　text-align: center;
+  　line-height: 60px;
+  }
+  
   .footer-menu-list li {
-  margin: 50px;
+  　margin: 10px;
+  　display: inline;
   }
+  
+  .copyright {
+  　text-align: center;
   }
-  @media screen and (max-width:1420px)  {  /*pc用*/
-    .footer-menu-list li {
-    margin:30px;
-    }
-    }
-@media screen and (min-width:793px)  { /* ipad */
-    .footer-menu-list li {
-    display: inline;
-    margin: 50px;
-}
-}
 
 
-
-
-
-.copyright {
-text-align: center;
-}
-
-
-.astting
-{
-a {
-color: rgb(255, 255, 255);
-text-decoration: none;
-
-padding: 30px 60px;
-
-padding: 60px;
-
-}
-}
-.astting:hover{
-a {
-color: red;
-text-decoration: none;
-
-padding:   30px 60px;
-
-
-}
-}
-
-
-}
-
-
-
-
-@media screen and (min-width:793px)  { 
-.footer-menu-list li {
-
-text-align: center;
-}
-}
 
 
 /* ヘッダー */
@@ -369,5 +293,6 @@ nav ul li a{
 text-decoration: none;
 color: white;
 }
+
 
 
