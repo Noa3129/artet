@@ -2,6 +2,10 @@
   font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
 }
 
+body {
+  font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
+}
+
 
 .button-36 {
 border: none;
@@ -35,6 +39,7 @@ color: #2589d0;
 
 }
 
+
 a:hover{
 color:red;
 }
@@ -68,7 +73,7 @@ list-style: none;
 .items {
 display: flex;
 }
-
+}
 
 
 .items li {
@@ -224,110 +229,82 @@ margin:  0px;               /* 要素と要素の間を開ける */
 padding:  50px;     
     /* 余白指定 */
 }
-
-
 
 /* フッター */
-.background-color {
-color:darkred
-}
 footer {
-
-background-color: darkred;
-color: darkred;
-margin-top: auto;
-}
-
-.footer-menu {
-
-height: 60px ;
-}
-
-.footer-menu-list {
-padding: 30px;
-  list-style: none;
-
-height: 60px auto;
-}
-
-.footer-menu-list {
-list-style: none;
-
-text-align: center;
-background-color: darkred;
-
-}
-
-.footer-menu-list li {
-
-
-background-color: darkred;
-  text-align: center;
-
-  background-color: darkred;
-
-}
-@media screen and (max-width:1920px)  {  /*pc用*/
+    background-color: darkgreen;
+    color: whitesmoke;
+    
+  }
+  
+  .footer-menu {
+    height: 60px;
+  }
+  
+  .footer-menu-list {
+    list-style: none;
+    text-align: center;
+    line-height: 60px;
+  }
+  
   .footer-menu-list li {
-  margin: 50px;
-  }
-  }
-  @media screen and (max-width:1420px)  {  /*pc用*/
-    .footer-menu-list li {
-    margin:30px;
-    }
-    }
-@media screen and (min-width:793px)  { /* ipad */
-    .footer-menu-list li {
+    margin: 10px;
     display: inline;
-    margin: 50px;
-}
-}
+    color: #ffffff;
+    font-weight: bold;
+  }
 
+  .footer-menu-list li:hover {
+    margin: 10px;
+    display: inline;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .copyright {
+    text-align: center;
+  }
 
-
-
-
-.copyright {
-text-align: center;
-}
-
-
-.astting
-{
-a {
-color: rgb(255, 255, 255);
-text-decoration: none;
-
-padding: 30px 60px;
-
-padding: 60px;
-
-}
-}
-.astting:hover{
-a {
-color: red;
-text-decoration: none;
-
-padding:   30px 60px;
-
-
-}
-}
-
-
-}
-
-
-
-
-@media screen and (min-width:793px)  { 
-.footer-menu-list li {
-
-text-align: center;
-}
-}
+/* loadingのコード */
+  #loading{
+    display: grid;
+    place-items: center;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    inset: 0;
+    font-size: 1.5rem;
+    
+    .circle-spin-1 {
+      --size: 24px;
+      --stroke-width: calc(var(--size) / 6);
+      --color: currentColor;
+      --animation-timing-function: linear;
+      --animation-duration: 1s;
+      width: var(--size);
+      height: var(--size);
+      border-width: var(--stroke-width);
+      border-style: solid;
+      border-color: var(--color) var(--color) var(--color) transparent;
+      border-radius: 50%;
+      transform: rotate(0deg);
+      animation: var(--animation-timing-function) var(--animation-duration) infinite circle-spin-1-animation;
+    }
+    
+    @keyframes circle-spin-1-animation {
+      from {
+        transform: rotate(0deg);
+      }
+    
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  #loading.loaded{
+    opacity: 0;
+    pointer-events: none;
+  }
 
 
 /* ヘッダー */
@@ -369,5 +346,6 @@ nav ul li a{
 text-decoration: none;
 color: white;
 }
+
 
 
