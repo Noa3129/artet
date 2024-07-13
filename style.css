@@ -250,6 +250,15 @@ footer {
   .footer-menu-list li {
     margin: 10px;
     display: inline;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  .footer-menu-list li:hover {
+    margin: 10px;
+    display: inline;
+    color: red;
+    font-weight: bold;
   }
   
   .copyright {
