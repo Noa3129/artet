@@ -56,14 +56,11 @@ html{
   font-weight: bold;
   padding: 0.7em;
   text-align: center;
-  background: rgb(255, 0, 0);
-  color: #fff;
+  background: rgb(255, 0, 0, 0.8);
+  color: rgb(255, 255, 255, 0.8);
   transition: 0.3s0;
 
-/* 会話場所 */
-/*  　　　　　*/
-/*  　　　　　*/
-/*  　　　　　*/
+
   }
   
   /* マウスオーバー時 */
