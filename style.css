@@ -45,7 +45,10 @@ body {
   opacity: 0;
   pointer-events: none;
 }
-
+/* 上に行くボタンのコード */
+html{
+  scroll-behavior: smooth;
+}
 .page_top_btn {
   position: fixed;
   bottom: 10px;
