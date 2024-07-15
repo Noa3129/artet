@@ -5,8 +5,74 @@
 body {
   font-family:"Baskerville","Hiragino Kaku Gothic ProN", sans-serif;
 }
+/* loadingのコード */
+#loading{
+  display: grid;
+  place-items: center;
+  background-color: #222;
+  color: #fff;
+  position: fixed;
+  inset: 0;
+  font-size: 1.5rem;
+  
+  .circle-spin-1 {
+    --size: 24px;
+    --stroke-width: calc(var(--size) / 6);
+    --color: currentColor;
+    --animation-timing-function: linear;
+    --animation-duration: 1s;
+    width: var(--size);
+    height: var(--size);
+    border-width: var(--stroke-width);
+    border-style: solid;
+    border-color: var(--color) var(--color) var(--color) transparent;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    animation: var(--animation-timing-function) var(--animation-duration) infinite circle-spin-1-animation;
+  }
+  
+  @keyframes circle-spin-1-animation {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}
+#loading.loaded{
+  opacity: 0;
+  pointer-events: none;
+}
 
-
+.page_top_btn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-weight: bold;
+  padding: 0.7em;
+  text-align: center;
+  background: rgb(255, 0, 0);
+  color: #fff;
+  transition: 0.3s0;
+  }
+  
+  /* マウスオーバー時 */
+  .page_top_btn:hover {
+  background: rgb(255, 0, 0, 0.8);
+  color: rgb(255, 255, 255, 0.8);
+  }
+  
+  .content.white {
+  height: 500px;
+  background-color: #fff;
+  }
+  
+  .content.gray {
+  height: 500px;
+  background-color: #eee;
+  }
 .button-36 {
 border: none;
 display: flex;
@@ -265,46 +331,6 @@ footer {
     text-align: center;
   }
 
-/* loadingのコード */
-  #loading{
-    display: grid;
-    place-items: center;
-    background-color: #222;
-    color: #fff;
-    position: fixed;
-    inset: 0;
-    font-size: 1.5rem;
-    
-    .circle-spin-1 {
-      --size: 24px;
-      --stroke-width: calc(var(--size) / 6);
-      --color: currentColor;
-      --animation-timing-function: linear;
-      --animation-duration: 1s;
-      width: var(--size);
-      height: var(--size);
-      border-width: var(--stroke-width);
-      border-style: solid;
-      border-color: var(--color) var(--color) var(--color) transparent;
-      border-radius: 50%;
-      transform: rotate(0deg);
-      animation: var(--animation-timing-function) var(--animation-duration) infinite circle-spin-1-animation;
-    }
-    
-    @keyframes circle-spin-1-animation {
-      from {
-        transform: rotate(0deg);
-      }
-    
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  }
-  #loading.loaded{
-    opacity: 0;
-    pointer-events: none;
-  }
 
 
 /* ヘッダー */
