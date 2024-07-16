@@ -56,17 +56,17 @@ html{
   font-weight: bold;
   padding: 0.7em;
   text-align: center;
-  background: rgba(125, 99, 99, 0.8);
+  background: rgba(142, 136, 136, 0.8);
   color: rgb(255, 255, 255, 0.8);
-  transition: 0.3s0;
-  border: solid 1px black;
+  transition: 0.3s0;  
+  animation: colorChange 2s infinite alternate;
 
 
   }
   
   /* マウスオーバー時 */
   .page_top_btn:hover {
-  background: rgb(142, 136, 136, 0.8);
+  background: rgb(180,180,180,0.8);
   color: rgba(255, 255, 255, 0.8);
   }
   
