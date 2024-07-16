@@ -45,14 +45,6 @@ body {
   opacity: 0;
   pointer-events: none;
 }
-@keyframes colorChange{
-  0%{
-    color: transparent
-  }
-  20%{
-    color:#fff;/*ここ */
-  }
-}
 /* 上に行くボタンのコード */
 html{
   scroll-behavior: smooth;
