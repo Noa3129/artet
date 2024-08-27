@@ -119,6 +119,12 @@ color:red;
 .imgcenter{
 text-align:center;
 pointer-events: none;
+position:relative;
+}
+.imgcenter p{
+position:absolute;
+top: 50%;
+left:50%; 
 }
 
 #ac-globalfooter .ac-gf-directory-column-section-item {
