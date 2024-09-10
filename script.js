@@ -1,3 +1,6 @@
+$(function(){
+
+
 let pagetop = $("#page-top");
   pagetop.hide();
 $(window).scroll(function () {
@@ -8,3 +11,4 @@ $(window).scroll(function () {
       pagetop.fadeOut();
     }
   });
+});
