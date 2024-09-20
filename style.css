@@ -320,14 +320,15 @@ padding:  50px;
 }
 /* 500px以下 */
 @media screen and(max-width=500px){
-  iframe{
-    display: inline;
+  .map-media{
+    /* 丸尾くんどうしましたか？ */
+    
   }
 }
-/* 840px以下 */
-@media screen and(max-width=840px){ 
-  iframe{
-    display: inline;
+/* 840px以上 */
+@media screen and(min-width=840px){ 
+  .map-media{
+    
   }
 }
 
