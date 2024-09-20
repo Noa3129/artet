@@ -318,6 +318,19 @@ margin:  0px;               /* 要素と要素の間を開ける */
 padding:  50px;     
     /* 余白指定 */
 }
+/* 500px以下 */
+@media screen and(max-width=500px){
+  iframe{
+    display: inline;
+  }
+}
+/* 840px以下 */
+@media screen and(max-width=840px){ 
+  iframe{
+    display: inline;
+  }
+}
+
 
 /* フッター */
 footer {
