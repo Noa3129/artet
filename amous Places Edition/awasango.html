@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+  
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,21 @@
 <style>a {
   text-decoration: none; 
 }</style>
+<!-- スライドショー -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000, // 画像がスライドするスピード
+                slideWidth: 400, // 画像の横幅
+            });
+        });
+</script>
+
 </head>
 <body>
   <div style="text-align:center;">
@@ -57,8 +73,14 @@ alt="施設の写真" width="90%" height="50%">
   </h3>
   </div>
   </body>
- <body>
-  <div class="wrapper">
+ 
+  <div class="slider"></div>
+    <img src="gazou1.jpg" alt="">
+    <img src="gazou2.jpg" alt="">
+    <img src="gazou3.jpg" alt="">
+    <img src="gazou4.jpg" alt="">
+    </div>
+  <!-- <div class="wrapper">
   <ul class="slider">
      <li class="slider-item slider-item01"></li>
      <li class="slider-item slider-item02"></li>
@@ -69,8 +91,7 @@ alt="施設の写真" width="90%" height="50%">
      <li class="slider-item slider-item07"></li>
 
   </ul>
-  </div>
-  </body>
+  </div> -->
 
   <footer>
     <div class="footer-menu">
