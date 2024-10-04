@@ -331,7 +331,6 @@ padding:  50px;
     
   }
 }
-/* スライド */
 *,body,ul {
   margin: 0;
   padding: 0;
@@ -400,37 +399,7 @@ li {
   height: 15px;
   left: 25px;
   bottom: 50%;
-  z-index: 10;
-  cursor: pointer;
-  border-top: solid 3px #000;
-  border-right: solid 3px #000;
-  -webkit-transform: rotate(-135deg) translateY(-50%);
-  transform: rotate(-135deg) translateY(-50%);
 }
-/* ↓ インジケーター */
-.indicator {
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  display: flex;
-  column-gap: 18px;
-  z-index: 10;
-  justify-content: center;
-  align-items: center;
-}
-.indicator li {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  list-style: none;
-  background-color: #fff;
-  border: 2px #000 solid;
-  cursor: pointer;
-}
-.indicator li:first-of-type {
-  background-color: #000;
-}
-
 /* フッター */
 footer {
     background-color: darkgreen;
