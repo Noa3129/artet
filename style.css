@@ -338,6 +338,7 @@ padding:  50px;
 li {
   list-style: none;
 }
+/* ↓ スライドの外枠 */
 .slide-wrapper {
   width: 100%;
   height: 300px;
