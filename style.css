@@ -338,7 +338,6 @@ padding:  50px;
 li {
   list-style: none;
 }
-/* ↓ スライドの外枠 */
 .slide-wrapper {
   width: 100%;
   height: 300px;
@@ -399,6 +398,35 @@ li {
   height: 15px;
   left: 25px;
   bottom: 50%;
+  z-index: 10;
+  cursor: pointer;
+  border-top: solid 3px #000;
+  border-right: solid 3px #000;
+  -webkit-transform: rotate(-135deg) translateY(-50%);
+  transform: rotate(-135deg) translateY(-50%);
+}
+/* ↓ インジケーター */
+.indicator {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  column-gap: 18px;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+}
+.indicator li {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  list-style: none;
+  background-color: #fff;
+  border: 2px #000 solid;
+  cursor: pointer;
+}
+.indicator li:first-of-type {
+  background-color: #000;
 }
 /* フッター */
 footer {
@@ -440,15 +468,7 @@ footer {
 
 
 
-/* ヘッダー */
 
-.header{
-width: 100%;
-height: 100vh;
-background-image: url("./img/yamaguchi_17_1.jpg");
-background-position: center;
-background-size: cover;
-}
 
 nav{
 width: 100%;
@@ -457,13 +477,7 @@ text-align: center;
 
 }
 
-.header-logo{
-width: 100%;
-margin: 0 auto 20px auto;
-cursor: pointer;
-font-size: 3rem;
-font-weight: 450;
-}
+
 
 nav ul{
 background: #000;
