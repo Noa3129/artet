@@ -1,3 +1,4 @@
+console.log("javaが読み込まれた");
 const slide = document.getElementById('slide');
 const prev = document.getElementById('prev');
 const next = document.getElementById('next');
